@@ -1,0 +1,12 @@
+{
+    "name": "bitrixcasts/courses_and_lessons_content",
+    "description": "Текстовые описания уроков к видеокурсам Birtixcasts",
+    "authors": [
+        {
+            "name": "Волков Михаил",
+            "email": "mvsvolkov@mvsvolkov.ru",
+            "homepage": "https://mvsvolkov.ru",
+            "role": "Creator"
+        }
+    ]
+}
