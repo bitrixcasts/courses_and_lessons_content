@@ -29,7 +29,7 @@ sendmail_path="/usr/sbin/sendmail -t -i -f noreply@noserver.ru"
 Если вы не используете PhpStorm, то выполните подобную такую команду просто из консоли
 
 ```shell script
-/usr/bin/php7.3 -S course01.bitrixcasts.lesson:8081 -t /www/bitrixcasts/01_course/demo1 -d short_open_tag=on -d display_errors=on -d mbstring.func_overload=2 -d mbstring.internal_encoding=utf-8 -d opcache.revalidate_freq=0 -d memory_limit=128M -d max_input_vars=10000 -d date.timezone=Europe/Moscow -d "sendmail_path=/usr/sbin/sendmail -t -i -f noreply@noserver.ru"
+/usr/bin/php7.4 -S course01.bitrixcasts.lesson:8081 -t /www/bitrixcasts/01_course/demo1 -d short_open_tag=on -d display_errors=on -d mbstring.internal_encoding=utf-8 -d opcache.revalidate_freq=0 -d memory_limit=128M -d max_input_vars=10000 -d date.timezone=Europe/Moscow -d "sendmail_path=/usr/sbin/sendmail -t -i -f noreply@noserver.ru"
 ```
 
 Я использую в уроках доменное имя `course01.bitrixcasts.lesson` и порт `8081` вы можете выбрать другие значение.  Но в любом случае их нужно указать в файле `hosts`
