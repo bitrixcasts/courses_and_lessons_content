@@ -10,7 +10,7 @@
 Bitrix\Main\Config\Configuration::getValue('exception_handling');
 ```
 
-### Доп. материалы
+### Дополнительные материалы
 1. [Документация: Настройки параметров ядра](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&LESSON_ID=2795&LESSON_PATH=3913.5062.2795)
 2. [Документация к классам Bitrix\Main\Config](https://dev.1c-bitrix.ru/api_d7/bitrix/main/config/index.php)
 

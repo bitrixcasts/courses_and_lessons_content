@@ -51,6 +51,6 @@ sendmail_path="/usr/sbin/sendmail -t -i -f noreply@noserver.ru"
 ### Установка Bitrix
 Сейчас вы станете свидетелем самого искрометного описания для урока: "Далее просто следуйте мастеру установки."
 
-### Доп. материалы
+### Дополнительные материалы
 1. [Документация: Битрикс по процессу установки](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=32&CHAPTER_ID=04862&LESSON_PATH=3903.4862)
 

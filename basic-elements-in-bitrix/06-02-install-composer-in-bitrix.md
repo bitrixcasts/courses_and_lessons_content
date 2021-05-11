@@ -3,6 +3,7 @@
 
 #### Установка зависимостей
 Создайте файл `/local/php_interface/composer.json` со следующим содержимым:
+
 ```json
 {
 }
@@ -14,6 +15,7 @@ composer require symfony/var-dumper
 ```
 
 Исключите директорию `vendor` из отслеживания git, добавьте следующий код в файл `.gitignore`
+
 ```text
 local/php_interface/vendor
 ```
@@ -25,7 +27,7 @@ local/php_interface/vendor
 require_once __DIR__ . '/vendor/autoload.php';
 ```
 
-### Доп. материалы
+### Дополнительные материалы
 1. [Composer установка](https://getcomposer.org/download/)
 2. [Компонент symfony/var-dumper](https://github.com/symfony/var-dumper)
 
