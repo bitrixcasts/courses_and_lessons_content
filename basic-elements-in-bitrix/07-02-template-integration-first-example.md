@@ -113,6 +113,7 @@ $arTemplate = [
         <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
     </div>
 </footer>
+</body>
 </html>
 ```
 
