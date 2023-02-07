@@ -1,9 +1,9 @@
-Начинаем с вами с установки Битрикса. Используйте готовый сервер, если у вас таковой есть. Либо, если хотите запустить проект локально, у вас должны быть установлены `php7.3` или `php7.4` (можно и ниже, но уроки будут построены на этой версии) и `mysql`.
+Начинаем с вами с установки Битрикса. Используйте готовый сервер, если у вас таковой есть. Либо, если хотите запустить проект локально, у вас должны быть установлены `php8.1` и `mysql`.
 
 <div class="message is-danger">
     <div class="message-body">
         <p class="has-text-weight-bold">ВНИМАНИЕ</p>
-        <p>Прогресс идет и Битрикс тоже не стоит на месте. Текущая поддерживаемая версия <b>php 7.4</b>. И они наконец-таки избавились от необходимости указывать опцию <i>mbstring.func_overload=2</i></p>
+        <p>Прогресс идет и Битрикс тоже не стоит на месте. Текущая поддерживаемая версия <b>php 8.1</b>. И они наконец-таки избавились от необходимости указывать опцию <i>mbstring.func_overload=2</i></p>
         <p>Скрипты приведенные ниже немного отличаются от тех, что записаны в уроках, с учетом этих нововведений</p>
     </div>
 </div>
@@ -37,7 +37,7 @@ sendmail_path="/usr/sbin/sendmail -t -i -f noreply@noserver.ru"
 Если вы не используете PhpStorm, то выполните подобную такую команду просто из консоли
 
 ```shell script
-/usr/bin/php7.4 -S course01.bitrixcasts.lesson:8081 -t /www/bitrixcasts/01_course/demo1 -d short_open_tag=on -d display_errors=on -d mbstring.internal_encoding=utf-8 -d opcache.revalidate_freq=0 -d memory_limit=128M -d max_input_vars=10000 -d date.timezone=Europe/Moscow -d "sendmail_path=/usr/sbin/sendmail -t -i -f noreply@noserver.ru"
+/usr/bin/php8.1 -S course01.bitrixcasts.lesson:8081 -t /www/bitrixcasts/01_course/demo1 -d short_open_tag=on -d display_errors=on -d mbstring.internal_encoding=utf-8 -d opcache.revalidate_freq=0 -d memory_limit=128M -d max_input_vars=10000 -d date.timezone=Europe/Moscow -d "sendmail_path=/usr/sbin/sendmail -t -i -f noreply@noserver.ru"
 ```
 
 Я использую в уроках доменное имя `course01.bitrixcasts.lesson` и порт `8081` вы можете выбрать другие значение.  Но в любом случае их нужно указать в файле `hosts`
